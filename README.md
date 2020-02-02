@@ -91,6 +91,8 @@ $uri = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ### Usage
 
 Add a vim-plug section to your `~/.vimrc` (or `stdpath('config') . '/init.vim'` for Neovim)
+firt of all , you need to move plug.vim into autoload folder. 
+and when you config plug#begin in .vimrc file, you can change the parameter to point to your plug.vim file.
 
 1. Begin the section with `call plug#begin()`
 1. List the plugins with `Plug` commands
